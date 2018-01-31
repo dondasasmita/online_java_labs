@@ -1,5 +1,7 @@
 package fundamentals.labs;
 
+import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+
 /**
  * Fundamentals Exercise 3: My First Program
  *
@@ -15,6 +17,8 @@ public class Exercise_03 {
     public static void main(String[] args) {
 
         // write code here
+        System.out.println("Hello World!");
+        System.out.println("Check out my first program!");
 
     }
 

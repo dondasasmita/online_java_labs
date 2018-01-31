@@ -9,7 +9,7 @@ class IfDemo {
     public static void main(String args[]) {
         int a, b, c;
 
-        a = 2;
+        a = 3;
         b = 3;
 
         //check if a is less that b
