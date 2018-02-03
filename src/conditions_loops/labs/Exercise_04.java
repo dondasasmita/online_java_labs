@@ -8,4 +8,11 @@ package conditions_loops.labs;
  */
 
 public class Exercise_04 {
+
+    public static void main (String[] args){
+
+        for (int counter = 2; counter < 101 ; counter += 2 ) {
+            System.out.println(counter);
+        }
+    }
 }

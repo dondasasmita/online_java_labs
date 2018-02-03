@@ -15,13 +15,26 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // create scanner
+        Scanner scanner = new Scanner(System.in);
 
         // prompt user
+        System.out.print("Enter a number between 1 to 7: ");
 
         // assign input to variable as int
-
+        int number = scanner.nextInt();
 
         // write completed code here
-
+        if (number == 1) {
+            System.out.println("Monday");
+        } else if (number == 2) {
+            System.out.println("Tuesday");
+        } else if (number == 3) {
+            System.out.println("Wednesday");
+        } else if (number == 4) {
+            System.out.println("Thursday");
+        } else if (number == 5) {
+            System.out.println("Friday");
+        } else System.out.println(" It is the WEEKEND!");
     }
+
 }

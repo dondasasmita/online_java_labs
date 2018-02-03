@@ -8,4 +8,16 @@ package conditions_loops.labs;
  */
 
 public class Exercise_06 {
+
+    public static void main (String[] args) {
+
+        int sum = 0;
+        int counter = 0;
+
+        while (counter <= 100) {
+            sum += counter;
+            counter++;
+        }
+        System.out.println(sum);
+    }
 }

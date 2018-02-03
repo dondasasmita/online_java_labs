@@ -20,4 +20,18 @@ package conditions_loops.labs;
  */
 
 public class Exercise_11 {
+
+    public static void main (String[] args) {
+
+        int counterA;
+        int counterB;
+
+        for (counterA = 1 ; counterA <= 10 ; counterA++) {
+            for (counterB = counterA ; counterB <= (counterA * 10); counterB += counterA ){
+                System.out.print(counterB + " " + "|");
+            } System.out.println();
+        }
+
+    }
+
 }

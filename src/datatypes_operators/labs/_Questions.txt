@@ -44,27 +44,35 @@ It is meant to evaluate two booleans. The results will be two booleans.
 
 int a=5, b=15, c=20, d=10;
 
-if(a+d | c-a) System.out.println("The result is ten! You win!")
+if( a+d == 10 || c-a == 10) System.out.println("The result is ten! You win!")
 
 10.) How can you use the shorthand addition operator to add 10 to a variable "x"?
-
+x += 10; (instead of x = x +10;)
 
 11.) What data type is a String?
+It is not a primitive data type. It is an array of char.
 
 
 12.) Are string mutable?
+String objects are immutable which means once created, the values cannot be changed.
 
-13.) How do you concatenate Strings?
+
+13.) How do you concatenate (def: to link together in a chain) Strings?
+System.out.println ("String1 " + "String2 ")
 
 
 14.) Can you cast and int to a String or a String to an int? Why or why not?
+It is possible to convert a number String to int by using Integer.parseInt() or Integer.valueOf()
+    String number = "10";
+    int result = Integer.parseInt(number);
+    System.out.println(result);
 
 
 15.) What is an array?
 
 
 16.) What is the first index of an array?
-
+0
 
 17.) Can you change the size of an array once it has been declared and initialized?
 

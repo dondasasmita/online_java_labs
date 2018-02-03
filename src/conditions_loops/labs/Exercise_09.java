@@ -8,4 +8,15 @@ package conditions_loops.labs;
  */
 
 public class Exercise_09 {
+
+    public static void main (String[] args) {
+
+        for (int x = 0 ; ; x++) {
+            System.out.println("This is number " + x);
+            if (x == 10) {
+                break;
+            }
+        }
+
+    }
 }

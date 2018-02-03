@@ -1,4 +1,5 @@
 package conditions_loops.labs;
+import java.util.Scanner;
 
 /**
  * Conditions and Loops Exercise 7: First vowel
@@ -9,4 +10,28 @@ package conditions_loops.labs;
  */
 
 public class Exercise_07 {
-}
+
+    public static void main (String[] args) {
+
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.print("Type a word: ");
+        String word = scanner.nextLine();
+        char letter = word.charAt(0);
+        boolean foundVowel = false;
+        int counter = 0;
+
+        while (!foundVowel){
+            letter = word.charAt(counter);
+            if (letter == 'a' || letter == 'i' || letter == 'u' || letter == 'e' || letter == 'o') {
+                System.out.println(word);
+                System.out.println(letter);
+                foundVowel = true;
+            } else {
+                counter ++;
+            }
+
+            }
+        }
+
+    }
