@@ -12,7 +12,7 @@ While loop will only execute when certain condition is met, do-while will execut
 
 4.) What is the difference between a for loop and an enhanced for loop?
 For loop is used when we want to repeat a statement with iteration over a range of values.
-Enhanced for loop
+Enhanced for loop is used when we want to step through an array
 
 5.) How do you create an infinite for loop?
 By leaving the condition empty - for (a = 0 ; ; a++)

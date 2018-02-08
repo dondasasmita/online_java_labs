@@ -69,19 +69,26 @@ It is possible to convert a number String to int by using Integer.parseInt() or 
 
 
 15.) What is an array?
+Array is a collection of variables of the same type.
 
 
 16.) What is the first index of an array?
 0
 
 17.) Can you change the size of an array once it has been declared and initialized?
-
+We cannot modify the size as it will be allocated in the memory in the beginning.
 
 18.) How do you print the 5th element in an array "exampleArray"?
-
+System.out.println ( exampleArray [4])
 
 19.) What are the two ways you can declare and initialize an array? Demonstrate both.
+To declare:
 
+    String coaches [] = new String [2];
+
+To initialize:
+
+    String [] coaches  = {"Ryan" , "Caden"}
 
 20.) How do you iterate through a multidimensional array?
 
