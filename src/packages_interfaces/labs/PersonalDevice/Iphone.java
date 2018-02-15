@@ -1,19 +1,19 @@
 package packages_interfaces.labs.PersonalDevice;
 
-public class Ipad implements PersonalDevice {
+public class Iphone extends Ipad {
 
     @Override
     public int turnOn(int x, int y) {
-        return 0;
+        return super.turnOn(x, y);
     }
 
     @Override
     public int batteryInfo() {
-        return 0;
+        return super.batteryInfo();
     }
 
     @Override
     public String turnOff() {
-        return null;
+        return super.turnOff();
     }
 }

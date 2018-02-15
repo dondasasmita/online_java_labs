@@ -1,18 +1,30 @@
 Answer the following questions:
 
 1.) What is an interface?
+A blueprint of java class that has constant and abstract methods.
 
 2.) Why are interfaces implemented?
+There are mainly 3 reasons to implement interface:
+    - It is used to achieve abstraction
+    - To support the functionality of multiple inheritance
+    - Can be used to achieve loose coupling
+
 
 3.) What is the implement keyword used for?
+It is used to connect/implement class with an interface
 
 4.) How many interfaces can class implement?
+A class can implement more than one interface at a time
 
 5.) Write a simple interface with one method.
 
+
+
 6.) Think of a real world application where interfaces are used. Describe it's purpose.
 
+
 7.) What is wrong with the following interface?
+
 
     public interface IncorrectInterface{
         int sum(int x, int y){
