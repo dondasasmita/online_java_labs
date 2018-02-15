@@ -3,11 +3,41 @@ Answer the following questions:
 
 1.) What is an instance variable?
 
+It is a variable that is declared within a class and may be accessed by different methods. It is declared outside of
+any methods and defined without static keyword.
+Example:
+
+public class Car {
+    private double gasInTank; // example of instance variable
+
+    public void drive (double distance) {
+        double gasConsumed = distance / miles; // example of local variable
+        gasInTank = gasInTank - gasConsumed;
+    }
+
+}
+
 2.) How do you create an object of a class Vehicle?
+
+There are 3 steps to create an object of a class.
+1. Declare
+2. Instantation
+3. Initialisation
+
+Example:
+
+public class Vehicle {
+    public static void main (String [] args) {
+        Vehicle truck = new Vehicle; // declaration, instantiation (naming the object), Initialisation (the 'new keyword' followed by the constructor.
+    }
+}
+
 
 3.) What is a reference variable? How is it different from a primitive type?
 
+
 4.) What does it mean to pass by reference?
+
 
 5.) What makes up a method signature?
 

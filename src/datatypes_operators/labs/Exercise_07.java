@@ -11,6 +11,8 @@ import java.util.Scanner;
  *
  */
 
+//similar to exercise 6 but different sizes.
+
 public class Exercise_07 {
 
 

@@ -11,4 +11,32 @@ package objects_classes_methods.labs;
  *      4) A non-static method1 that calls another non-static method2 and passes a value to method2.
  */
 
+class Students {
+
+    private String country;
+    private  static int numOfStudents; //static variable
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    Students(){ // constructor
+        numOfStudents = 0;
+    }
+
+
+    public static void main(String[] args) {
+
+        Students A = new Students();
+        A.setCountry("Singapore");
+        numOfStudents ++;
+        System.out.println("The country of students is " + A.getCountry()); // static calling non-static method
+        System.out.println("Number of students from "+ A.getCountry() + " is " + numOfStudents); // static calling static method
+
+    }
+}
 
