@@ -1,11 +1,26 @@
 Answer the following questions:
 
 1.) What is a thread and why do we use them?
+    It is a path followed when executing a program. All Java programs have at least one thread.
+    We use threads to provide multitasking capability to the program/user.
+    For example, MS Word program runs user input and check spelling concurrently.
 
 2.) What are the two ways to create a thread?
+    1.) Implement the Runnable interface
+    2.) Extends the class to Thread Class
 
 3.) How do you start a thread using the Runnable interface?
+    First, implement the class to Runnable Interface.
+    Second, create Thread objects and within the parameters pass the objects that we would like to execute
+    Third, call the start method on the Thread object
+
 
 4.) How do you start a thread using the Thread class?
+    First, extends the class to Thread
+    Second, create method called run in the class, as it will execute when we call start method (from Thread class) in the main method.
+    Third, create the object in the main method and call the start method to execute.
 
 5.) How do you change a thread priority?
+    We can call the setPriority on the objects and execute getPriority. 
+
+

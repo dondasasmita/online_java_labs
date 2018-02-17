@@ -1,0 +1,4 @@
+/**
+This program prints out 2 greetings in Bahasa Indonesia and English. They are "Selamat Datang" and "Welcome".
+Both words will be printed parallel as multi-threading demonstration.
+*/
