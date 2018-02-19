@@ -1,0 +1,3 @@
+Hi, there! 
+This is a test of Java file input/output
+ Another line is added. Let's see what happens

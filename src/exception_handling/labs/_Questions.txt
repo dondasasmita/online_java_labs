@@ -1,24 +1,37 @@
 Answer the following questions:
 
 1.) What is exception handling?
+It is a method that handles a problem that might arise during the execution of a program.
 
 2.) What is the exception hierarchy? What is the difference between the Exception class and the Error class?
+Exception hierarchy is an organization of Java exception classes.
+Exception class is a class that can be handled.
+Error class is an a class that cannot be handled.
 
 3.) What is a try/catch?
+These are blocks of code that contain set of statements where an exception can occur. A try block is
+always followed by a catch block, which handles the exception that occurs associated try block.
 
 4.) What exceptions have you come across thus far?
 
+
 5.) How many catch statement can you have following a try?
+
 
 6.) How many try statements can you have preceding a catch?
 
+
 7.) What does the finally statement do in a try/catch/finally block?
 
+
 8.) Can you nest exceptions? If so, when would you nest an exception?
+
 
 9.) If you want to catch an ArrayIndexOutOfBounds exception and an Exception exception,
     which should you catch first? Why?
 
+
 10.) How do you rethrow and exception? Why would you rethrow an exception?
+
 
 11.) What is the purpose of the throws keyword?
