@@ -10,7 +10,7 @@ package generics.labs.Exercise_01;
 
 class Agents <T> {
 
-    public T t;
+    public T t; //code of the agent is a dynamic type. (Example: "Beast", "0.08", etc).
     public String fullName;
     public String nationality;
 
