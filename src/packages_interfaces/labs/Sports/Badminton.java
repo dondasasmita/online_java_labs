@@ -21,14 +21,5 @@ public class Badminton implements  Sports {
         return null;
     }
 
-    public static void main(String[] args) {
 
-        Badminton game = new Badminton();
-
-        for (int i = 0 ; i < 11 ; i ++) {
-            game.scoreUp();
-            System.out.print(" | ");
-        }
-
-    }
 }

@@ -21,6 +21,6 @@ Answer the following questions:
     Third, create the object in the main method and call the start method to execute.
 
 5.) How do you change a thread priority?
-    We can call the setPriority on the objects and execute getPriority. 
+    We can call the setPriority on the objects and execute getPriority.
 
 

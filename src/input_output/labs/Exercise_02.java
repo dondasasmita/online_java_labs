@@ -18,13 +18,13 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        FileInputStream in = null;
-        FileOutputStream out = null;
+        BufferedReader in = null;
+        BufferedWriter out = null;
 
         try {
             // initialize
-            in = new FileInputStream("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/file_to_encrypt.txt");
-            out = new FileOutputStream("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/encrypted_file.txt");
+            in = new BufferedReader  (new FileReader("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/file_to_encrypt.txt"));
+            out = new BufferedWriter (new FileWriter("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/encrypted_file.txt"));
             int c;
 
             // while there is data to read in the inputStream "in"

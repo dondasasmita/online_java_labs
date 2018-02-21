@@ -9,8 +9,9 @@ public class SelamatDatang extends Thread{
         for (int i = 0 ; i <= 5 ; i++) {
             System.out.print("Selamat Datang | ");
             try { Thread.sleep(300);} //delayed  0.3 seconds
-                catch (Exception e) {}
-
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
         }
     }
 }

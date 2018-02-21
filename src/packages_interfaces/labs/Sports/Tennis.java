@@ -21,17 +21,4 @@ public class Tennis implements Sports {
         return null;
     }
 
-    public static void main(String[] args) {
-
-        int maximumScorePerSet = 40;
-
-        Tennis game = new Tennis();
-
-        for (int i = 0 ; game.totalScore < maximumScorePerSet ; i ++) {
-            game.scoreUp();
-            System.out.print(" | ");
-        }
-
-
-    }
 }

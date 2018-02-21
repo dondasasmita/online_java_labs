@@ -15,13 +15,13 @@ public class Exercise_01 {
 
         public static void main(String[] args) {
 
-            FileInputStream in = null;
-            FileOutputStream out = null;
+            BufferedInputStream in = null;
+            BufferedOutputStream out = null;
 
             try {
                 // initialize
-                in = new FileInputStream("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/another_test.txt");
-                out = new FileOutputStream("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/another_test_copy.txt");
+                in = new BufferedInputStream (new FileInputStream("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/another_test.txt"));
+                out = new BufferedOutputStream(new FileOutputStream("/Users/donda/Documents/CodingNomads/online_java_labs/test_files/another_test_copy.txt"));
                 int c;
 
                 // while there is data to read in the inputStream "in"

@@ -1,19 +1,36 @@
 Answer the following questions:
 
 1.) What is a byte stream?
+A type of data contained in I/O stream. Byte streams process data byte by byte (8 bits).
 
 2.) What is a character stream?
+A type of data contained in I/O stream. They are stored using Unicode conventions.
 
 3.) What two classes are at the top of the the byte stream hierarchy?
+FileInputStream and FileOutputStream
 
 4.) What two classes are at the top of the the character stream hierarchy?
+FileReader and FileWriter
 
 5.) List at least three byte stream classes.
+    1.) FileInputStream
+    2.) FileOutputStream
+    3.)
 
 6.) List at least three character stream classes.
+    1.) FileReader
+    2.) FileWriter
+    3.)
+
 
 7.) What is a try-with-resources?
+It is a try statement that declares one or more resources.
 
 8.) What makes the BufferedReader different from the BufferedInputStream?
 
+
 9.) When would you use the read() method vs. the readline() method?
+    - read() method will read only one character and returns the character it reads.
+    - readline() method will read until it finds \n and \r.
+
+

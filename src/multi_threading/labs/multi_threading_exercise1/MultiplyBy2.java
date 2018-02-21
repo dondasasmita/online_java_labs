@@ -8,7 +8,11 @@ public class MultiplyBy2 implements Runnable {
 
         for (int i = 0 ; i < array.length ; i++) {
             System.out.println("This is multiply by 2 | " + array[i] * 2 + " | ");
-            try {Thread.sleep(300);} catch (Exception e) {};
+            try {
+                Thread.sleep(300);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
 
         }
     }
